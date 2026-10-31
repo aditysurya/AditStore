@@ -1,4 +1,4 @@
-# Raider Store
+# Adit Store
 Aplikasi toko komputer Android (Kotlin + Jetpack Compose), data dari DummyJSON.
 
 ## Video Penjelasan & Demo
