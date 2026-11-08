@@ -1,0 +1,26 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# MySQL data
+/databases/*
+!/databases/.gitkeep
+
+# Runtime Google Authenticator secret
+/data/*
+
+# htdocs data
+# /htdocs/*
+# !/htdocs/.gitkeep
+# /htdocs/.google2fa_secret
+
+# Docker overrides and local files
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store

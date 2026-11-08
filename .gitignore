@@ -8,3 +8,9 @@
 /captures
 .externalNativeBuild
 .cxx
+
+backend/.env
+backend/vendor/
+backend/databases/*
+!backend/databases/.gitkeep
+.idea/
